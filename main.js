@@ -142,7 +142,8 @@ function handleItemAdd() {
     1) userID
     2) userEmail 
     3) todoItemText*/
-    storeToDoItem(userID,userEmail,todoItemText);
+    
+    storeToDoItem(userId,userEmail,todoItemText);
 
     // clear the input value after storing the data
     textInput.value = "";
